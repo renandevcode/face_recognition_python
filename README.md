@@ -83,22 +83,24 @@ O projeto demonstra por que métodos clássicos ainda são importantes para estu
 
 ## 📁 Estrutura do Projeto
 
+## 📁 Estrutura do Projeto
+
+```text
 face_recognition_python/
 │
-├── .venv/                          # Ambiente virtual Python
+├── .venv/
 │
-├── cascade/                        # Classificadores Haar
+├── cascade/
 │   ├── haarcascade_eye.xml
 │   └── haarcascade_frontalface_default.xml
 │
-├── classifier/                     # Modelos treinados
+├── classifier/
 │   ├── classificadorEigen.yml
 │   └── classificadorLBPH.yml
 │
-├── face_recognize.py               # Script principal de execução
-├── reconhecedor_eigenface.py       # Reconhecimento facial usando Eigenfaces
-├── reconhecedor_lbph.py            # Reconhecimento facial usando LBPH
-├── treinamento.py                  # Treinamento dos classificadores
+├── face_recognize.py
+├── reconhecedor_eigenface.py
+├── reconhecedor_lbph.py
+├── treinamento.py
 │
-└── README.md                       # Documentação do projeto
-
+└── README.md
