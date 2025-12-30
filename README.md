@@ -48,17 +48,19 @@ Este projeto foi desenvolvido com foco em:
 ## Uso do programa
 1 - Primeiro faça as capturas salvando as imagens das faces detectadas:
 
-python detect_face.py
+`python detect_face.py`
+
 digite: um numero para ser o identificador da face e o nome do responsável daquela face
 clique na tecla TAB para iniciar a sessão de capturas
 clique na tecla "q" para salvar a imagem da face detectada.
 
 2 - Faça o apredizado das faces detectadas:
 
-python treinamento.py
-3 - Execute o reconhecedor facil
+`python treinamento.py`
 
-python reconhecedor_eigenfaces.py | python reconhecedor_lbph.py
+3 - Execute o reconhecedor no terminal:
+
+`python reconhecedor_eigenfaces.py` | `python reconhecedor_lbph.py`
 
 
 ---
