@@ -83,8 +83,6 @@ O projeto demonstra por que métodos clássicos ainda são importantes para estu
 
 ## 📁 Estrutura do Projeto
 
-## 📁 Estrutura do Projeto
-
 ```text
 face_recognition_python/
 │
