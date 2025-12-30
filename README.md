@@ -50,9 +50,11 @@ Este projeto foi desenvolvido com foco em:
 
 `python detect_face.py`
 
-digite: um numero para ser o identificador da face e o nome do responsável daquela face
-clique na tecla TAB para iniciar a sessão de capturas
-clique na tecla "q" para salvar a imagem da face detectada.
+Digite:
+*  um numero para ser o identificador da face
+*  o nome do portador da face indentificada
+* clique na tecla `TAB` para iniciar a sessão de capturas
+
 
 2 - Faça o apredizado das faces detectadas:
 
@@ -80,4 +82,23 @@ O projeto demonstra por que métodos clássicos ainda são importantes para estu
 ---
 
 ## 📁 Estrutura do Projeto
+
+face_recognition_python/
+│
+├── .venv/                          # Ambiente virtual Python
+│
+├── cascade/                        # Classificadores Haar
+│   ├── haarcascade_eye.xml
+│   └── haarcascade_frontalface_default.xml
+│
+├── classifier/                     # Modelos treinados
+│   ├── classificadorEigen.yml
+│   └── classificadorLBPH.yml
+│
+├── face_recognize.py               # Script principal de execução
+├── reconhecedor_eigenface.py       # Reconhecimento facial usando Eigenfaces
+├── reconhecedor_lbph.py            # Reconhecimento facial usando LBPH
+├── treinamento.py                  # Treinamento dos classificadores
+│
+└── README.md                       # Documentação do projeto
 
